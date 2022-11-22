@@ -1,0 +1,8 @@
+install android studio with all packages
+
+design UI
+
+app shud have authentication
+
+database - use SQLite or firebase
+    data stored must be encrypted

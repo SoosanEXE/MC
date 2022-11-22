@@ -1,0 +1,25 @@
+choose 2 primes p and q
+n = p*q
+
+find e (pub key)
+    e is coprime with phi(n)
+
+find d
+    e^-1 mod phi(n)
+
+ciphertext =  plaintext^e mod n
+plaintext = ciphertext^d mod n
+
+diffie hellman key exchange
+
+select prime p publicly
+select g (primitive root of p)
+
+select private key a and b
+
+A --> g^a mod p --> B
+B --> g^b mod p --> A
+
+s = B^a mod p
+s = A^b mod p
+
