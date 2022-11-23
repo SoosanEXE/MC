@@ -1,5 +1,3 @@
-package Block_Ciphers;
-
 import java.util.*;
 
 public class DiffieHellman {
